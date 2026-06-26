@@ -4,7 +4,7 @@ Projekt - had s pomocí TkInter
 # Hra Had v Tkinteru
 
 ## Shrnutí
-Vytvořte jednoduchou grafickou verzi hry **Had** v Pythonu s využitím knihovny `tkinter`.
+Vytvořte jednoduchou grafickou verzi hry **Had** v Pythonu s využitím knihovny `tkinter`. Můžete využít tiny.school rádce.
 
 Cílem hry je ovládat hada po hrací ploše, sbírat potravu, prodlužovat jeho tělo a vyhýbat se nárazu do stěny nebo do vlastního těla.
 
