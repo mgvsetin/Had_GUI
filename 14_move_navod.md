@@ -361,21 +361,3 @@ def move_player(direction: str) -> None:
     """
     ...
 ```
-
----
-
-## Kontrolní otázky pro sebehodnocení
-
-Než projekt odevzdáte, ověřte, že dokážete odpovědět:
-
-- Proč používáme `keyboard.is_pressed()` místo `input()`? Co by se stalo, kdybychom `input()` použili?
-- Co přesně dělá `time.sleep(DELAY)` uvnitř herní smyčky a co se stane, pokud tento řádek vymažete?
-- Proč `place_food()` hodnotu **vrací** (`return`) místo toho, aby ji přímo zapsala do `FOOD_POS`?
-- Jak byste upravili `move_player()`, aby had mohl „projít" skrz stěnu a objevit se na druhé straně (tzv. wrap-around)?
-- Co je `try/except KeyboardInterrupt` v bloku `MAIN` a proč je tam?
-- Jak byste přidali překážky na hrací plochu? Co by se muselo změnit ve funkcích `render_board()`, `place_food()` a `move_player()`?
-
----
-
-*Konzistentní s: `14_move_empty.py`, `14_move_README.md`*  
-*Navazující projekt: `15_move_and_snake_empty.py`*
